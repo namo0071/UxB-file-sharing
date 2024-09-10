@@ -10,30 +10,30 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7323845077:AAF34lAeQwMw9hakPoG3A8t82QFuF-pERcE")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7265343095:AAFxWwyUOq7P-qHn5m2UbrtMfS1CVqrg2gw")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24290004"))
+APP_ID = int(os.environ.get("APP_ID", "24091153"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "8fe55f7a2e97101799599990248c99ef")
+API_HASH = os.environ.get("API_HASH", "1b5ef3db9cc5a04ea168c4982a956fdf")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002320271277"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002265540162"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7357408432"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "7276947730"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://namomehra4:pXbGj9Tr7kCHinGB@cluster0.k6u7o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Nishchay:namomehra007_1@cluster0.fpgf1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster01")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "0"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002236411344"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002163908097"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
@@ -41,9 +41,9 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #token varibles
 # my shortner https://dashboard.shareus.io/signup/lifetime/U9AZbV
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "zipshort.net")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "1835696358508e103c8d0b5c807c0ce69fbd8715")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "adrinolinks.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "29d6436d3f37c95fe7c978c5c42b289f69f4753a")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 82400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID","gojfsi/2")
 
@@ -72,7 +72,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!\n\n» ᴍʏ ᴏᴡɴᴇʀ : @ultroidxTeam"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(6508598835)
+ADMINS.append(7014219411)
 
 LOG_FILE_NAME = "codeflixbots.txt"
 
