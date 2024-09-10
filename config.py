@@ -44,7 +44,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "fa2a0768fc8d2a51b22e46293634a52670a73c7a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/m2manju/2")
 
 #start message
